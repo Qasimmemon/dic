@@ -1,0 +1,49 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Make Dice game</h1>
+    <p id="i_1"></p>
+    <p id="i_2"></p>
+
+    <button id="sun">generate number</button>
+    <script src="app.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .dice {
+            font-size: 100px;
+        }
+        .winner {
+            font-size: 30px;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dice Game</h1>
+    <div>
+        <span id="player1" class="dice">🎲</span>
+        <span id="player2" class="dice">🎲</span>
+    </div>
+    <button onclick="rollDice()">Roll Dice</button>
+    <div id="result" class="winner"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
